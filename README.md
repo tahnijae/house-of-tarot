@@ -11,7 +11,7 @@ The current options for readings are:
 
 ## Roadmap
 There are quite a few things that I would like to implement in this project in the future.
-- [ ] Editing the print outs to remove the "s" if one card is drawn (ex you drew 1 major arcana cards -> card)
+- [x] Editing the print outs to remove the "s" if one card is drawn (ex you drew 1 major arcana cards -> card)
 - [ ] An option for the user to cut the deck and decide which half to put on top
 - [ ] Adding in reversals 
 - [ ] Card meanings and / or keywords
