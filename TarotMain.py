@@ -149,10 +149,9 @@ class Reading:
 
         print()
         print("You got", cmin,"minor arcana cards and", cmaj, "major arcana cards! Interesting! ")
-        #if (cwands > 1) or (ccups > 1) or (cswords > 1) or (cpent > 1):
-        print( f"Of the minor arcana, there were {cwands} wands, {ccups} cups, {cswords} swords, and {cpent} pentacles")
+        if (cwands > 1) or (ccups > 1) or (cswords > 1) or (cpent > 1):
+            print( f"Of the minor arcana, you drew {cwands} wand{'' if cwands == 1 else 's'}, {ccups} cup{'' if ccups == 1 else 's'}, {cswords} sword{'' if cswords == 1 else 's'}, and {cpent} pentacle{'' if cpent == 1 else 's'}")
         
 
-         
 r = Reading()
 r.begin()
